@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="Fahasa"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalReportAndroid"
+        tools:targetApi="31">
+        <activity
+            android:name=".interfaces.client.DeatilInforBook"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.administrative.create.UpdateBookActivity"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.client.ClientBottomNavigation"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.administrative.AdministrativeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.administrative.create.CreateNewBook"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.administrative.create.CreateNewPublisher"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.administrative.create.CreateNewStore"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.administrative.create.CreateNewCategory"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.administrative.create.CreateNewAuthor"
+            android:exported="false" />
+        <activity
+            android:name=".interfaces.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

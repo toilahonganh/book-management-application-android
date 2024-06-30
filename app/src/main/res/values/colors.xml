@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#E0E0E0</color>
+    <color name="black1">#EFEFEF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbar">#20C96C</color>
+    <color name="red">#c92127</color>
+    <color name="white1">#f0f0f0</color>
+    <color name="pink">#ff6764</color>
+    <color name="toolbar_color">#008080</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="less_yellow">#FFFFE0</color>
+    <color name="mau">#f8f8f8</color>
+    <color name="orange">#f19426</color>
+    <color name="less_white">#EDEADE</color>
+    <color name="edit">#088F8F</color>
+
+</resources>

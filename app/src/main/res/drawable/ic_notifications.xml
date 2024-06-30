@@ -1,0 +1,5 @@
+<!-- res/drawable/img_home_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/notification" android:state_selected="true" android:width="21dp" android:height="21dp"/>
+    <item android:drawable="@drawable/notification" android:width="21dp" android:height="21dp"/>
+</selector>
